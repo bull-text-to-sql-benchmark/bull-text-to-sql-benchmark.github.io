@@ -1,1 +1,0 @@
-# bull-text-to-sql-benchmark.github.io
