@@ -1,0 +1,62 @@
+header {
+  background-color: #00356B; /* Example blue color, adjust as needed */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+header img {
+  color: white;
+  /*background-color: white;*/
+  height: 50px;
+  margin-left: 10px;
+}
+
+header p {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+body {
+  background-color: #cb3131; /* Light gray background */
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex; /* Use flexbox to create a two-column layout */
+  justify-content: center; /* Center the columns on the page */
+  gap: 20px; /* Adds space between the columns */
+  padding: 20px; /* Padding around the container */
+}
+
+.column {
+  background-color: #ffffff; /* White background for columns */
+  flex-basis: 50%; /* Each column takes up half of the container's width */
+  padding: 20px; /* Padding inside the columns */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: adds shadow for depth */
+  border-radius: 4px; /* Optional: rounds the corners of the columns */
+}
+
+footer {
+  background-color: #00356B; /* Same as header */
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
