@@ -14,21 +14,25 @@ header {
   padding: 10px
 }
 
+.header-text {
+  padding: 20px
+}
+
 header h1 {
-  margin: 0;
-  font-size: 2em;
+  margin: 10px;
+  font-size: 5em;
 }
 
 header img {
   color: white;
   /*background-color: white;*/
-  height: 50px;
-  margin-left: 10px;
+  height: 150px;
+  margin: 10px;
 }
 
 header p {
-  margin: 0;
-  font-size: 1.2em;
+  margin: 10px;
+  font-size: 1.5em;
 }
 
 body {
